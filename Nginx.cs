@@ -99,7 +99,7 @@ namespace Caucho
     {
       ProcessStartInfo startInfo = new ProcessStartInfo();
       startInfo.FileName = "nginx.exe";
-      startInfo.WorkingDirectory = "D:\\studio\\nginx\\";
+      startInfo.WorkingDirectory = "C:\\nginx\\";
       //startInfo.Arguments = "-c conf\\nginx.conf";
       startInfo.UseShellExecute = false;
         startInfo.RedirectStandardError = true;
